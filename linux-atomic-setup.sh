@@ -11,8 +11,3 @@ sudo apt-get update -y;
 # Install PowerShell
 sudo apt-get install -y powershell;
 # Start PowerShell
-pwsh;
-
-IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing);
-Install-AtomicRedTeam -getAtomics;
-Invoke-AtomicTest
