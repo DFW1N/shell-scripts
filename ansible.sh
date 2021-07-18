@@ -2,7 +2,7 @@
 # This file should be sourced
 
 # Change directory to user home
-cd /home/useradmin
+cd /home/adminuser
 
 # Upgrade all packages that have available updates and remove old ones.
 sudo apt-get update
