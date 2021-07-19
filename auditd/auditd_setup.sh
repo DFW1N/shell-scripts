@@ -2,6 +2,8 @@
 ## AUDITD INSTALL ##
 ####################
 
+# AUTHOR: SACHA ROUSSAKIS-NOTTER
+
 # Installing auditd
 sudo apt install -y auditd
 
