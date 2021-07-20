@@ -8,7 +8,7 @@
 ## VARIABLES #
 ##############
              
-# Both values can be found in " Log Analytics Workspace > Workspace Name > Agents Management > Linux Servers > Workspace ID & Primary Key
+# Both values can be found in " Log Analytics Workspace > Workspace Name > Agents Management > Linux Servers > Workspace ID & Primary Key "
 workplaceID="00000000-0000-0000-0000-000000000000"
 primaryKey="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 
