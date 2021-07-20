@@ -33,9 +33,9 @@ Please look at the bottom if you need a guide to finding you're Azure Log Analyt
 
     #! /bin/bash
 
-    ###################################
+    #######################################
     ## WRITTEN BY: SACHA ROUSSAKIS-NOTTER #
-    ###################################
+    #######################################
 
     ##############
     ## VARIABLES #
