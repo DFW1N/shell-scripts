@@ -34,8 +34,6 @@ Contributor:                                                [<img src="https://g
     sudo apt-get update -y
     sudo apt upgrade -y
     sudo apt autoremove --assume-yes
-    # Installing auditd
-    sudo apt install -y auditd
 
     ####################
     ## AUDITD INSTALL ##
