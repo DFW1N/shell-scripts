@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ###################################
-## AUTHOR: SACHA ROUSSAKIS-NOTTER #
+## WRITTEN BY: SACHA ROUSSAKIS-NOTTER #
 ###################################
 
 ##############
