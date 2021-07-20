@@ -9,8 +9,8 @@
 ##############
              
 # Both values can be found in " Log Analytics Workspace > Workspace Name > Agents Management > Linux Servers > Workspace ID & Primary Key "
-workplaceID="00000000-0000-0000-0000-000000000000"
-primaryKey="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+workplaceID="00000000-0000-0000-0000-000000000000" # <------ Change to your Workspace ID
+primaryKey="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" # <------ Change to your Workspace Primary Key
 
 # Updating Azure Virtual Ubuntu Machine
 sudo apt-get update -y
