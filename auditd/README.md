@@ -27,6 +27,8 @@ Contributor:                                                [<img src="https://g
     primaryKey="0000000000000000000000000000000000000"
     linuxuser="adminuser"
 
+Please look at the bottom if you need a guide to finding you're Azure Log Analytics Workspace Values.
+
 ## [↑](#contents) Shell Script Code:
 
     #! /bin/bash
