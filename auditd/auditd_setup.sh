@@ -36,7 +36,7 @@ curl https://raw.githubusercontent.com/DFW1N/shell-scripts/main/auditd/systemd-u
 curl https://raw.githubusercontent.com/DFW1N/shell-scripts/main/auditd/sshd > /etc/pam.d/sshd
 
 # Download Linux OMS Agent
-wget -P ~/ omsagent-1.13.35-0.universal.x64.sh https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_v1.13.35-0/omsagent-1.13.35-0.universal.x64.sh
+curl https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_v1.13.35-0/omsagent-1.13.35-0.universal.x64.sh > ~/omsagent-1.13.35-0.universal.x64.sh
 # Install OMS Agent
 sudo sh ./omsagent-*.universal.x64.sh --upgrade -w $workplaceID -s $primaryKey
 # Copy the omsagent .conf file to the omsagent workspace
