@@ -11,8 +11,8 @@ Contributor:                                                [<img src="https://g
 
 ## [↑](#contents) Files used in Shell Script:
 - [mitre_attack.rules](https://github.com/DFW1N/shell-scripts/blob/main/mitre_attack.rules)
-- [sshd](https://github.com/DFW1N/shell-scripts/blob/main/auditd/sshd)
-- [systemd-user](https://github.com/DFW1N/shell-scripts/blob/main/auditd/systemd-user)
+- [sshd](https://github.com/DFW1N/shell-scripts/blob/main/auditd/sshd) - Replaces auditd sshd file with required changes
+- [systemd-user](https://github.com/DFW1N/shell-scripts/blob/main/auditd/systemd-user) - Replaces auditd systemd-user file with required changes
 - [auditd_setup.sh](https://github.com/DFW1N/shell-scripts/blob/main/auditd/auditd_setup.sh)
 
 ## [↑](#contents) Prerequisites:
