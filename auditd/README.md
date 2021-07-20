@@ -89,6 +89,14 @@ Contributor:                                                [<img src="https://g
 
 Once this has been deployed to your Linux virtual machine you can use the LinuxAuditLog_CL query. You can see an example below:
 
+Confirm Linux Heartbeat:
+
+    Heartbeat
+    | where OSType == 'Linux'
+    | summarize arg_max(TimeGenerated, *) by SourceComputerId
+    | sort by Computer
+    | render table
+
 KQL Query with auditd:
 
      LinuxAuditLog_CL
