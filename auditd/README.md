@@ -13,6 +13,12 @@ Contributor:                                                [<img src="https://g
 - [systemd-user](https://github.com/DFW1N/shell-scripts/blob/main/auditd/systemd-user)
 - [auditd_setup.sh](https://github.com/DFW1N/shell-scripts/blob/main/auditd/auditd_setup.sh)
 
+## [↑](#contents) Prerequisites:
+
+### Please do not forget to give this script the correct permissions with the following command:
+
+    chmod +x auditd_setup.sh
+
 ## [↑](#contents) Shell Script Code:
 
     #! /bin/bash
