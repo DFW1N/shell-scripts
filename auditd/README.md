@@ -108,3 +108,20 @@ KQL Query with auditd:
     | where ConsoleCommand contains "ssh localhost" or ConsoleCommand contains "ssh -o"
          or ConsoleCommand contains "nano -s /bin/sh"
     | project TimeGenerated, ConsoleCommand, RecordType_s, Computer, AuditID_s
+    
+ ## [↑](#contents) Log Analytics Workspace Guide:
+ 
+ 1. Log into your azure portal at https://portal.azure.com
+ 2. Search for:
+ 
+ ![image](https://user-images.githubusercontent.com/45083490/126265430-394f5116-ea5c-49ca-a62c-831c0d8d1242.png)
+ 
+ 3. Select it then select your workspace
+ 
+ ![image](https://user-images.githubusercontent.com/45083490/126265485-e0c8b606-0dc5-48e8-b906-38a065a99280.png)
+ 
+ 4. Complete Steps shown in picture:
+ 
+ ![image](https://user-images.githubusercontent.com/45083490/126265929-aa665320-da8b-4dfb-9106-8e4f604ea3b9.png)
+
+
