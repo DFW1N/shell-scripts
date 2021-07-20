@@ -35,9 +35,9 @@ curl https://raw.githubusercontent.com/DFW1N/shell-scripts/main/auditd/systemd-u
 # Over writing sshd file with curl command
 curl https://raw.githubusercontent.com/DFW1N/shell-scripts/main/auditd/sshd > /etc/pam.d/sshd
 
-# Download Linux OMS Agent (Change /home/adminuser to your linux {Username})
+# Download Linux OMS Agent
 wget -P ~/ omsagent-1.13.35-0.universal.x64.sh https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_v1.13.35-0/omsagent-1.13.35-0.universal.x64.sh
-# Install OMS Agent (Change -w Workspace and -s Shared key)
+# Install OMS Agent
 sudo sh ./omsagent-*.universal.x64.sh --upgrade -w $workplaceID -s $primaryKey
 # Copy the omsagent .conf file to the omsagent workspace
 sudo cp /etc/opt/microsoft/omsagent/sysconf/omsagent.d/auditlog.conf /etc/opt/microsoft/omsagent/$workplaceID/conf/omsagent.d/
