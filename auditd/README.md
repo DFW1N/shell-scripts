@@ -1,5 +1,7 @@
 # Ubuntu 18.04 - Linux auditd
 
+This Shell script has been designed to allow Azure Sentinel to congest the auditd logs so you can monitor your Linux virtual machines from your Azure environment without having to get other data connectors connected from the Sentinel environment.
+
 ## [↑](#contents) Credits
 Contributor:                                                [<img src="https://github.com/DFW1N/DFW1N-OSINT/blob/master/DFW1N%20Logo.png" align="right" width="120">](https://github.com/DFW1N/DFW1N-OSINT)
 
@@ -19,12 +21,18 @@ Contributor:                                                [<img src="https://g
 
     chmod +x auditd_setup.sh
 
+### Also change the Variables inside the Shell Script to meet your own environment:
+
+    workplaceID="00000000-0000-0000-0000-000000000000"
+    primaryKey="0000000000000000000000000000000000000"
+    linuxuser="adminuser"
+
 ## [↑](#contents) Shell Script Code:
 
     #! /bin/bash
 
     ###################################
-    ## AUTHOR: SACHA ROUSSAKIS-NOTTER #
+    ## WRITTEN BY: SACHA ROUSSAKIS-NOTTER #
     ###################################
 
     ##############
