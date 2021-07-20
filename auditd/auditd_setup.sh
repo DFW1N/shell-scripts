@@ -8,8 +8,8 @@
 ## VARIABLES #
 ##############
 
-workplaceID= "60d75d70-760a-4c85-9fe8-2db198997a00"
-primaryKey= "Wl5Ui4ema4HLCG34PawFMjvIK9n7yRmexby01DDs64eVAm1reAE8ElCtlEIBc4P0gllfiY9OkzoLlUxHMzL+aA=="
+workplaceID="60d75d70-760a-4c85-9fe8-2db198997a00"
+primaryKey="Wl5Ui4ema4HLCG34PawFMjvIK9n7yRmexby01DDs64eVAm1reAE8ElCtlEIBc4P0gllfiY9OkzoLlUxHMzL+aA=="
 
 # Updating Azure Virtual Ubuntu Machine
 sudo apt-get update -y
