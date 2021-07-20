@@ -85,3 +85,16 @@ Contributor:                                                [<img src="https://g
     # Check OMS Agent log for Agent Restart
     sudo tail /var/opt/microsoft/omsagent/$workplaceID/log/omsagent.log
 
+## [↑](#contents) KQL Ingestion Operator:
+
+Once this has been deployed to your Linux virtual machine you can use the LinuxAuditLog_CL query. You can see an example below:
+
+KQL Query with auditd:
+
+     LinuxAuditLog_CL
+    | order by TimeGenerated
+    | extend ConsoleCommand = strcat(a0_s," ",a1_s," ",a2_s," ",a3_s)
+    | where RecordType_s == "EXECVE"
+    | where ConsoleCommand contains "ssh localhost" or ConsoleCommand contains "ssh -o"
+         or ConsoleCommand contains "nano -s /bin/sh"
+    | project TimeGenerated, ConsoleCommand, RecordType_s, Computer, AuditID_s
