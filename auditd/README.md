@@ -7,7 +7,7 @@ Contributor:                                                [<img src="https://g
 
  [![Follow Sacha Roussakis | Sacha on Twitter](https://img.shields.io/twitter/follow/Sacha.svg?style=social&label=Follow%20%40Sacha)](https://twitter.com/intent/user?screen_name=sacha_roussakis "Follow Sacha Roussakis | Sacha on Twitter")
 
-## [↑](#contents) Files:
+## [↑](#contents) Files used in Shell Script:
 - [mitre_attack.rules](https://github.com/DFW1N/shell-scripts/blob/main/mitre_attack.rules)
 - [sshd](https://github.com/DFW1N/shell-scripts/blob/main/auditd/sshd)
 - [systemd-user](https://github.com/DFW1N/shell-scripts/blob/main/auditd/systemd-user)
