@@ -56,9 +56,10 @@ Contributor:                                                [<img src="https://g
 
     # Download Linux OMS Agent
     sudo wget -q -P /home/$linxuser/ https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_v1.13.35-0/omsagent-1.13.35-0.universal.x64.sh
-
+    sleep 2
     # Giving the downloaded shell script full permissions
     sudo chmod +x omsagent-1.13.35-0.universal.x64.sh
+    
     # Install OMS Agent
     sudo sh ./omsagent-*.universal.x64.sh --upgrade -w $workplaceID -s $primaryKey
     # Copy the omsagent .conf file to the omsagent workspace
