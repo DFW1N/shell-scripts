@@ -1,5 +1,5 @@
-$domainName = "{{ windows_domain_info['dns_domain_name'] }}"
-$password = "{{ windows_domain_info['domain_admin_password'] }}"
+$domainName = "{{ windows_domain_info['adfs-localhost'] }}"
+$password = "{{ windows_domain_info['UnicornJumpedth3br1dg34000!'] }}"
 $securePassword = ConvertTo-SecureString $password -AsPlainText -Force
 $fqdn = [System.Net.Dns]::GetHostByName(($env:computerName)) | FL HostName | Out-String | %{ "{0}" -f $_.Split(':')[1].Trim() };
 $filename = "C:\$fdqn.pfx"
