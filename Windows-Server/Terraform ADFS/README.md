@@ -12,4 +12,6 @@ Contributor:                                                [<img src="https://g
 ## [↑](#contents) Backend Infrastructure Deployed:
 
 
+## [↑](#contents) IP Address Schema:
+
 
